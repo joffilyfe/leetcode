@@ -32,6 +32,7 @@ Constraints:
 
 from typing import List
 
+
 class Solution:
     def findDifference(self, nums1: List[int], nums2: List[int]) -> List[List[int]]:
         table_nums1 = {}
@@ -55,4 +56,5 @@ class Solution:
 
         return [list(member) for member in result]
 
-print(Solution().findDifference(nums1 = [1,2,3,3], nums2 = [1,1,2]))
+
+print(Solution().findDifference(nums1=[1, 2, 3, 3], nums2=[1, 1, 2]))

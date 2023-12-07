@@ -17,6 +17,7 @@ Output: false
 
 """
 
+
 class Solution:
     def checkIfPangram(self, sentence: str) -> bool:
         alphabet = {}
@@ -29,4 +30,5 @@ class Solution:
 
         return len(alphabet) == 26
 
-print(Solution().checkIfPangram(sentence='thequickbrownfoxjumpsoverthelazydog'))
+
+print(Solution().checkIfPangram(sentence="thequickbrownfoxjumpsoverthelazydog"))

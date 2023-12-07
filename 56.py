@@ -3,9 +3,9 @@
 from typing import List
 from operator import itemgetter
 
+
 class Solution:
     def merge(self, intervals: List[List[int]]) -> List[List[int]]:
-
         intervals.sort(key=lambda x: x[0])
 
         merged = []
@@ -17,18 +17,9 @@ class Solution:
 
         return merged
 
-print(Solution().merge(intervals = [[1,3],[2,6],[8,10],[15,18],[23, 24]]))
+
+print(Solution().merge(intervals=[[1, 3], [2, 6], [8, 10], [15, 18], [23, 24]]))
 # print(Solution().merge(intervals = [[1,4],[0,3]]))
 # print(Solution().merge(intervals = [[1,4]]))
 # print(Solution().merge(intervals = [[1,4],[5,6]]))
 # print(Solution().merge(intervals = [[1,4],[2,3]]))
-
-
-
-
-
-
-
-
-
-

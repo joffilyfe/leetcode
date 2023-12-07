@@ -34,6 +34,7 @@ nums contains n + 1 unique elements and one of them is repeated exactly n times.
 
 from typing import List
 
+
 class Solution:
     def repeatedNTimes(self, nums: List[int]) -> int:
         table = {}
@@ -50,12 +51,14 @@ class Solution:
             if qtd == size // 2:
                 return key
 
+
 import unittest
 
+
 class TestStringMethods(unittest.TestCase):
-
     def test_upper(self):
-        self.assertEqual(Solution().repeatedNTimes(nums=[2,1,2,5,3,2]), 2)
+        self.assertEqual(Solution().repeatedNTimes(nums=[2, 1, 2, 5, 3, 2]), 2)
 
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     unittest.main()

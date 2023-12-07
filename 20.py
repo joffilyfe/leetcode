@@ -30,9 +30,9 @@ s consists of parentheses only '()[]{}'.
 
 from typing import List
 
+
 class Solution:
     def isValid(self, s: str) -> bool:
-
         if len(s) == 1:
             return False
 
@@ -55,26 +55,24 @@ class Solution:
 
         # return len(stack) == 0
 
-        opening = ['[', '(', '{']
+        opening = ["[", "(", "{"]
         # closing = [']', ')', '}']
-        pairs = ['[]', '()', '{}']
+        pairs = ["[]", "()", "{}"]
 
         for bracket in s:
-          if bracket in opening:
-            stack.append(bracket)
-            continue
+            if bracket in opening:
+                stack.append(bracket)
+                continue
 
-          # impossible to pop
-          if len(stack) == 0:
-            return False
+            # impossible to pop
+            if len(stack) == 0:
+                return False
 
-          first_out = stack.pop()
-          if f"{first_out + bracket}" not in pairs:
-            return False
+            first_out = stack.pop()
+            if f"{first_out + bracket}" not in pairs:
+                return False
 
         return len(stack) == 0
 
 
-
-
-print(Solution().isValid(s='['))
+print(Solution().isValid(s="["))

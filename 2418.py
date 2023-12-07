@@ -32,6 +32,7 @@ All the values of heights are distinct.
 from typing import List
 from operator import itemgetter
 
+
 class Solution:
     def sortPeople(self, names: List[str], heights: List[int]) -> List[str]:
         # compound = zip(heights, names)
@@ -46,5 +47,4 @@ class Solution:
         return [table[height] for height in sorted(heights, reverse=True)]
 
 
-
-print(Solution().sortPeople(names = ["Mary","John","Emma"], heights = [180,165,170]))
+print(Solution().sortPeople(names=["Mary", "John", "Emma"], heights=[180, 165, 170]))

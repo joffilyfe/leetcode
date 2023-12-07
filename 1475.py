@@ -1,5 +1,6 @@
 from typing import List
 
+
 class Solution:
     def finalPrices(self, prices: List[int]) -> List[int]:
         # for each item in the PRICE LIST
@@ -30,12 +31,14 @@ class Solution:
         return result
 
 
-
 import unittest
+
 
 class Test(unittest.TestCase):
     def test_first_case(self):
-        self.assertEqual(Solution().finalPrices(prices = [8,4,6,2,3]), [4,2,4,2,3])
+        self.assertEqual(
+            Solution().finalPrices(prices=[8, 4, 6, 2, 3]), [4, 2, 4, 2, 3]
+        )
 
 
 unittest.main()

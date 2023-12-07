@@ -1,5 +1,6 @@
 from typing import List
 
+
 class Solution:
     def sumOfUnique(self, nums: List[int]) -> int:
         table = {}
@@ -19,4 +20,4 @@ class Solution:
         return qtd
 
 
-print(Solution().sumOfUnique(nums = [1,2,3,2]))
+print(Solution().sumOfUnique(nums=[1, 2, 3, 2]))

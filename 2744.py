@@ -1,5 +1,6 @@
 from typing import List
 
+
 class Solution:
     def maximumNumberOfStringPairs(self, words: List[str]) -> int:
         qtd = 0
@@ -18,5 +19,4 @@ class Solution:
         return qtd
 
 
-
-print(Solution().maximumNumberOfStringPairs(words = ["cd","ac","dc","ca","zz"]))
+print(Solution().maximumNumberOfStringPairs(words=["cd", "ac", "dc", "ca", "zz"]))

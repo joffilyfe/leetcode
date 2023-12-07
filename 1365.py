@@ -34,27 +34,29 @@ Constraints:
 
 from typing import List
 
+
 class Solution:
-  # O(n ^2)
-  # def smallerNumbersThanCurrent(self, nums: List[int]) -> List[int]:
-  #   table = {}
-  #   result = [0] * len(nums)
+    # O(n ^2)
+    # def smallerNumbersThanCurrent(self, nums: List[int]) -> List[int]:
+    #   table = {}
+    #   result = [0] * len(nums)
 
-  #   for i in range(len(nums)):
-  #     for j in range(len(nums)):
-  #       if nums[i] < nums[j] and i != j:
-  #         result[j] += 1
+    #   for i in range(len(nums)):
+    #     for j in range(len(nums)):
+    #       if nums[i] < nums[j] and i != j:
+    #         result[j] += 1
 
-  #   return result
+    #   return result
 
-  def smallerNumbersThanCurrent(self, nums: List[int]) -> List[int]:
-    table = {}
+    def smallerNumbersThanCurrent(self, nums: List[int]) -> List[int]:
+        table = {}
 
-    for i, number in enumerate(sorted(nums)):
-      if table.get(number) is not None: continue
-      table[number] = i
+        for i, number in enumerate(sorted(nums)):
+            if table.get(number) is not None:
+                continue
+            table[number] = i
 
-    return [table[nums[i]] for i in range(len(nums))]
+        return [table[nums[i]] for i in range(len(nums))]
 
 
-print(Solution().smallerNumbersThanCurrent(nums=[6,5,4,8]))
+print(Solution().smallerNumbersThanCurrent(nums=[6, 5, 4, 8]))

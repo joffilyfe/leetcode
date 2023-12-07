@@ -43,8 +43,8 @@ Exactly n calls will be made to insert.
 """
 from typing import List
 
-class OrderedStream:
 
+class OrderedStream:
     def __init__(self, n: int):
         self.table = {}
         self.n = n
@@ -71,8 +71,8 @@ class OrderedStream:
 
 s = OrderedStream(5)
 
-print(s.insert(3, 'c'))
-print(s.insert(1, 'a'))
-print(s.insert(2, 'b'))
-print(s.insert(5, 'e'))
-print(s.insert(4, 'd'))
+print(s.insert(3, "c"))
+print(s.insert(1, "a"))
+print(s.insert(2, "b"))
+print(s.insert(5, "e"))
+print(s.insert(4, "d"))

@@ -21,24 +21,23 @@ Explanation: Because nums[0] + nums[1] == 9, we return [0, 1].
 
 from typing import List
 
+
 class Solution:
+    # this is O(n ^ 2) because we do two loops over the list
+    # def twoSum(self, nums: List[int], target: int) -> List[int]:
+    #   for i in range(0, len(nums)):
+    #     for j in range(i + 1, len(nums)):
+    #       if nums[i] + nums[j] == target:
+    #         return [i, j]
 
-  # this is O(n ^ 2) because we do two loops over the list
-  # def twoSum(self, nums: List[int], target: int) -> List[int]:
-  #   for i in range(0, len(nums)):
-  #     for j in range(i + 1, len(nums)):
-  #       if nums[i] + nums[j] == target:
-  #         return [i, j]
+    # this is O(n) because we iterate only once over the list
+    def twoSum(self, nums: List[int], target: int) -> List[int]:
+        table = {}
 
-  # this is O(n) because we iterate only once over the list
-  def twoSum(self, nums: List[int], target: int) -> List[int]:
-    table = {}
+        for i in range(0, len(nums)):
+            complement = target - nums[i]
 
-    for i in range(0, len(nums)):
-      complement = target - nums[i]
+            if table.get(complement) is not None:
+                return [table.get(complement), i]
 
-      if table.get(complement) is not None:
-        return [table.get(complement), i]
-
-      table[nums[i]] = i
-
+            table[nums[i]] = i

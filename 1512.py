@@ -31,30 +31,32 @@ Constraints:
 from typing import List
 from collections import defaultdict
 
+
 class Solution:
+    # this is a O(n ^ 2 ) solution because we're interating twice over the list
+    # def numIdenticalPairs(self, nums: List[int]) -> int:
+    #   qtd = 0
 
-  # this is a O(n ^ 2 ) solution because we're interating twice over the list
-  # def numIdenticalPairs(self, nums: List[int]) -> int:
-  #   qtd = 0
+    #   for i in range(len(nums)):
+    #     for j in range(i + 1, len(nums)):
+    #       if nums[i] == nums[j]:
+    #         qtd += 1
 
-  #   for i in range(len(nums)):
-  #     for j in range(i + 1, len(nums)):
-  #       if nums[i] == nums[j]:
-  #         qtd += 1
+    #   return qtd
+    def numIdenticalPairs(self, nums: List[int]) -> int:
+        table = defaultdict(lambda: 0)
+        qtd = 0
 
-  #   return qtd
-  def numIdenticalPairs(self, nums: List[int]) -> int:
-    table = defaultdict(lambda: 0)
-    qtd = 0
+        for number in nums:
+            table[number] += 1
 
-    for number in nums:
-      table[number] += 1
+        for value in table.values():
+            if value < 1:
+                continue
 
-    for value in table.values():
-      if value < 1: continue
+            qtd += value * (value - 1) // 2
 
-      qtd += value * ( value - 1) // 2
+        return qtd
 
-    return qtd
 
 # print(Solution().numIdenticalPairs(nums=[1,2,3,1,1,3]))

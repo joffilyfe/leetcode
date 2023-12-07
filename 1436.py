@@ -1,5 +1,6 @@
 from typing import List
 
+
 class Solution:
     def destCity(self, paths: List[List[str]]) -> str:
         table = dict(paths)
@@ -22,5 +23,8 @@ class Solution:
                 return destination
 
 
-print(Solution().destCity(paths=[["pYyNGfBYbm","wxAscRuzOl"],["kzwEQHfwce","pYyNGfBYbm"]]))
-
+print(
+    Solution().destCity(
+        paths=[["pYyNGfBYbm", "wxAscRuzOl"], ["kzwEQHfwce", "pYyNGfBYbm"]]
+    )
+)

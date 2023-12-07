@@ -18,6 +18,7 @@ Explanation:
 Thus, the number of rods with all three colors is 1.
 """
 
+
 class Solution:
     # O(n)
     def countPoints(self, rings: str) -> int:
@@ -40,6 +41,4 @@ class Solution:
         return qtd
 
 
-
-
-print(Solution().countPoints(rings='G4'))
+print(Solution().countPoints(rings="G4"))

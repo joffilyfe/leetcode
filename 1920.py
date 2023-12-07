@@ -2,6 +2,7 @@
 
 from typing import List
 
+
 class Solution:
     def buildArray(self, nums: List[int]) -> List[int]:
         size = len(nums)
@@ -9,6 +10,5 @@ class Solution:
 
         for i in range(size):
             result[i] = nums[nums[i]]
-        
+
         return result
-        

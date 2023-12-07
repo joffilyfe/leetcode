@@ -32,6 +32,7 @@ Output: "art"
 Explanation: The word "rat" becomes "art" after re-ordering it with the mentioned algorithm.
 """
 
+
 class Solution:
     def sortString(self, s: str) -> str:
         qtd_table = {}
@@ -43,8 +44,6 @@ class Solution:
                 qtd_table[char] = 1
             else:
                 qtd_table[char] += 1
-
-
 
         while sum(qtd_table.values()) > 0:
             for char in ordered_uniq_chars:
@@ -59,16 +58,16 @@ class Solution:
                     result.append(char)
                     qtd_table[char] -= 1
 
-
-        return ''.join(result)
+        return "".join(result)
 
 
 import unittest
 
+
 class TestStringMethods(unittest.TestCase):
-
     def test_upper(self):
-        self.assertEqual(Solution().sortString(s="aaaabbbbcccc"), 'abccbaabccba')
+        self.assertEqual(Solution().sortString(s="aaaabbbbcccc"), "abccbaabccba")
 
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     unittest.main()

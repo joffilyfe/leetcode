@@ -40,6 +40,7 @@ Constraints:
 
 from typing import List
 
+
 class Solution:
     def numberOfPairs(self, nums: List[int]) -> List[int]:
         table = {}
@@ -65,13 +66,13 @@ class Solution:
         return [pairs, leftover]
 
 
-
 import unittest
 
+
 class TestStringMethods(unittest.TestCase):
-
     def test_upper(self):
-        self.assertEqual(Solution().numberOfPairs(nums=[1,3,2,1,3,2,2]), [3, 1])
+        self.assertEqual(Solution().numberOfPairs(nums=[1, 3, 2, 1, 3, 2, 2]), [3, 1])
 
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     unittest.main()

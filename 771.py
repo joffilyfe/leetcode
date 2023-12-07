@@ -25,20 +25,20 @@ All the characters of jewels are unique.
 
 
 class Solution:
-  def numJewelsInStones(self, jewels: str, stones: str) -> int:
-    table = {}
-    qtd = 0
+    def numJewelsInStones(self, jewels: str, stones: str) -> int:
+        table = {}
+        qtd = 0
 
-    for stone in stones:
-      if table.get(stone) is None:
-        table[stone] = 0
+        for stone in stones:
+            if table.get(stone) is None:
+                table[stone] = 0
 
-      table[stone] += 1
+            table[stone] += 1
 
-    for jewel in jewels:
-      qtd += table.get(jewel, 0)
+        for jewel in jewels:
+            qtd += table.get(jewel, 0)
 
-    return qtd
+        return qtd
 
-print(Solution().numJewelsInStones(jewels='zZ', stones='ZZ'))
 
+print(Solution().numJewelsInStones(jewels="zZ", stones="ZZ"))

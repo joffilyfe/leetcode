@@ -19,4 +19,5 @@ class Solution:
 
         return min == max
 
+
 print(Solution().areOccurrencesEqual(s="aaabb"))

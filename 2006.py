@@ -1,5 +1,6 @@
 from typing import List
 
+
 class Solution:
     # O(n ^ 2)
     # O(n)
@@ -14,7 +15,7 @@ class Solution:
             if table.get(nums[i] + k):
                 result += table.get(nums[i] + k)
 
-            if table.get(nums[i]) is  None:
+            if table.get(nums[i]) is None:
                 table[nums[i]] = 1
             else:
                 table[nums[i]] += 1
@@ -22,6 +23,4 @@ class Solution:
         return result
 
 
-
-
-print(Solution().countKDifference(nums=[1,2,2,1], k=1))
+print(Solution().countKDifference(nums=[1, 2, 2, 1], k=1))

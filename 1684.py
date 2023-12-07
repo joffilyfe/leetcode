@@ -33,6 +33,7 @@ words[i] and allowed contain only lowercase English letters.
 
 from typing import List
 
+
 class Solution:
     def countConsistentStrings(self, allowed: str, words: List[str]) -> int:
         # table = {}
@@ -67,4 +68,8 @@ class Solution:
         return qtd
 
 
-print(Solution().countConsistentStrings(allowed="ab", words=["ad","bd","aaab","baa","badab"]))
+print(
+    Solution().countConsistentStrings(
+        allowed="ab", words=["ad", "bd", "aaab", "baa", "badab"]
+    )
+)

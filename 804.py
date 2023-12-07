@@ -36,9 +36,37 @@ words[i] consists of lowercase English letters.
 """
 from typing import List
 
+
 class Solution:
     def uniqueMorseRepresentations(self, words: List[str]) -> int:
-        codes = [".-","-...","-.-.","-..",".","..-.","--.","....","..",".---","-.-",".-..","--","-.","---",".--.","--.-",".-.","...","-","..-","...-",".--","-..-","-.--","--.."]
+        codes = [
+            ".-",
+            "-...",
+            "-.-.",
+            "-..",
+            ".",
+            "..-.",
+            "--.",
+            "....",
+            "..",
+            ".---",
+            "-.-",
+            ".-..",
+            "--",
+            "-.",
+            "---",
+            ".--.",
+            "--.-",
+            ".-.",
+            "...",
+            "-",
+            "..-",
+            "...-",
+            ".--",
+            "-..-",
+            "-.--",
+            "--..",
+        ]
         table = {}
 
         # this is a O(n) solution
@@ -51,4 +79,5 @@ class Solution:
 
         return len(table)
 
-print(Solution().uniqueMorseRepresentations(words=["gin","zen","gig","msg"]))
+
+print(Solution().uniqueMorseRepresentations(words=["gin", "zen", "gig", "msg"]))
