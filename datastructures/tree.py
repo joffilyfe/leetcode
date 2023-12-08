@@ -87,7 +87,7 @@ def insert_using_find(root: Node, value: int) -> Optional[Node]:
 
 def insert(root: Node, value: int):
     if not root:
-        return None
+        return Node(value=value)
 
     current = root
 
@@ -109,6 +109,16 @@ def insert(root: Node, value: int):
 
     return root
 
+def insert_recursive(root: Optional[Node], value: int) -> Node:
+    if not root:
+        return Node(value=value)
+
+    if value < root.value:
+        root.left = insert_recursive(root.left, value)
+    elif value > root.value:
+        root.right = insert_recursive(root.right, value)
+
+    return root
 
 def remove(root: Optional[Node], value: int) -> Optional[Node]:
     """Uses recursion to traverse the Three then removes target Node.
