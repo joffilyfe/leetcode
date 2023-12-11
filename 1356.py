@@ -1,6 +1,7 @@
 # https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits/description/
 
 from functools import cmp_to_key
+from typing import List
 
 
 def comparator(item1, item2):
@@ -31,4 +32,4 @@ class Solution:
         result = list(zip(arr, bin_count))
         result.sort(key=cmp_to_key(comparator))
 
-        return [n for n, _ in result]
+        return [n[0] for n in result]
