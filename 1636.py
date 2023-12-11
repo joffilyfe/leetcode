@@ -18,7 +18,7 @@ def comparator(item1, item2):
 
 class Solution:
     def frequencySort(self, nums: List[int]) -> List[int]:
-        table = {}
+        table: dict[int, int] = {}
 
         for n in nums:
             table[n] = table.get(n, 0) + 1
