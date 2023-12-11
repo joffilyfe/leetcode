@@ -1,5 +1,5 @@
 # https://leetcode.com/problems/neither-minimum-nor-maximum/description/
-
+from typing import List
 
 class Solution:
     def findNonMinOrMax(self, nums: List[int]) -> int:

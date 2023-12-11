@@ -43,4 +43,5 @@ class Test(unittest.TestCase):
         self.assertEqual(Solution().arithmeticTriplets(nums=[0, 1, 2], diff=0), 1)
 
 
-unittest.main()
+if __name__ == '__main__':
+    unittest.main()

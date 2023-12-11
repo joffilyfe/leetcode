@@ -31,4 +31,5 @@ class Tests(unittest.TestCase):
         self.assertEqual(Solution().countGoodSubstrings(s="aababcabc"), 4)
 
 
-unittest.main()
+if __name__ == '__main__':
+    unittest.main()

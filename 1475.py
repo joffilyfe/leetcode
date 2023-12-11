@@ -41,4 +41,5 @@ class Test(unittest.TestCase):
         )
 
 
-unittest.main()
+if __name__ == '__main__':
+    unittest.main()

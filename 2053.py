@@ -42,4 +42,5 @@ class Test(unittest.TestCase):
         self.assertEqual(self.solution.kthDistinct(arr=["a", "a", "b", "a"], k=1), "b")
 
 
-unittest.main()
+if __name__ == '__main__':
+    unittest.main()

@@ -37,4 +37,5 @@ class Tests(unittest.TestCase):
         self.assertEqual(Solution().thirdMax(nums=[1, 2, 0]), 0)
 
 
-unittest.main()
+if __name__ == '__main__':
+    unittest.main()

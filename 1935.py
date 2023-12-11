@@ -5,10 +5,20 @@ class Solution:
         broken = set(brokenLetters)
 
         for word in words:
-            if len(broken.intersection(word) > 0):
+            if len(broken.intersection(word)) >  0:
                 qtd -= 1
 
         return qtd
 
 
-print(Solution().canBeTypedWords(text="leet code", brokenLetters="lt"))
+import unittest
+class TestStringMethods(unittest.TestCase):
+    def test_upper(self):
+        self.assertEqual(Solution().canBeTypedWords(text="leet code", brokenLetters="lt"), 1)
+
+
+if __name__ == "__main__":
+    unittest.main()
+
+
+

@@ -1,5 +1,5 @@
 from typing import List
-
+import unittest
 
 class Solution:
     def mergeSimilarItems(
@@ -20,9 +20,6 @@ class Solution:
                 table[item[0]] += item[1]
 
         return [[key, table[key]] for key in sorted(table.keys())]
-
-
-import unittest
 
 
 class TestStringMethods(unittest.TestCase):

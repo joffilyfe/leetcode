@@ -42,4 +42,5 @@ class Test(unittest.TestCase):
         self.assertEqual(Solution().deleteGreatestValue(grid=[[1, 2, 3], [1, 3, 5]]), 9)
 
 
-unittest.main()
+if __name__ == '__main__':
+    unittest.main()

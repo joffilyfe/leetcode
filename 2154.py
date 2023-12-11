@@ -44,4 +44,5 @@ class Test(unittest.TestCase):
         self.assertEqual(self.solution.findFinalValue(nums=[2, 7, 9], original=4), 4)
 
 
-unittest.main()
+if __name__ == '__main__':
+    unittest.main()

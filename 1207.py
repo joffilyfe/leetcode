@@ -27,4 +27,5 @@ class Test(unittest.TestCase):
         self.assertEqual(Solution().uniqueOccurrences(arr=[1, 2, 1]), True)
 
 
-unittest.main()
+if __name__ == '__main__':
+    unittest.main()

@@ -41,4 +41,5 @@ class Test(unittest.TestCase):
         self.assertEqual(Solution().unequalTriplets(nums=[1, 2, 3, 4, 5, 6]), 20)
 
 
-unittest.main()
+if __name__ == '__main__':
+    unittest.main()

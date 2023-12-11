@@ -45,4 +45,5 @@ class Test(unittest.TestCase):
         self.assertEqual(Solution().frequencySort(nums=[1, 5, 0, 5]), [1, 0, 5, 5])
 
 
-unittest.main()
+if __name__ == '__main__':
+    unittest.main()

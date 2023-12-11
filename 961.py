@@ -33,11 +33,11 @@ nums contains n + 1 unique elements and one of them is repeated exactly n times.
 """
 
 from typing import List
-
+import unittest
 
 class Solution:
     def repeatedNTimes(self, nums: List[int]) -> int:
-        table = {}
+        table: dict[int, int] = {}
 
         for num in nums:
             if table.get(num) is None:
@@ -47,12 +47,14 @@ class Solution:
 
         size = len(nums)
 
+        result = 0
+
         for key, qtd in table.items():
             if qtd == size // 2:
-                return key
+                result = key
+                break
 
-
-import unittest
+        return result
 
 
 class TestStringMethods(unittest.TestCase):

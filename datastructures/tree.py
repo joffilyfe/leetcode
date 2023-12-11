@@ -235,4 +235,5 @@ class TreeTest(unittest.TestCase):
         self.assertEqual(self.root.left.value, 11)
 
 
-unittest.main()
+if __name__ == '__main__':
+    unittest.main()
