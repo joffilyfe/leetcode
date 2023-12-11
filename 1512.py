@@ -43,9 +43,14 @@ class Solution:
     #         qtd += 1
 
     #   return qtd
+
+    # this is a O(n) solutin where we count how
+    # many entries a number has in the array then we can apply
+    # this formula https://www.reddit.com/r/mathematics/comments/v3tgpx/dont_understand_why_n_n_1_2/
+    # to find out how many pairs it has
     def numIdenticalPairs(self, nums: List[int]) -> int:
-        table = defaultdict(lambda: 0)
-        qtd = 0
+        table: dict[int, int] = defaultdict(lambda: 0)
+        count = 0
 
         for number in nums:
             table[number] += 1
@@ -54,9 +59,24 @@ class Solution:
             if value < 1:
                 continue
 
-            qtd += value * (value - 1) // 2
+            count += value * (value - 1) // 2
 
-        return qtd
+        return count
 
 
-# print(Solution().numIdenticalPairs(nums=[1,2,3,1,1,3]))
+import unittest
+
+
+class Test(unittest.TestCase):
+    def test_first(self):
+        self.assertEqual(Solution().numIdenticalPairs(nums=[1, 2, 3, 1, 1, 3]), 4)
+
+    def test_second(self):
+        self.assertEqual(Solution().numIdenticalPairs(nums=[1, 1, 1, 1]), 6)
+
+    def test_third(self):
+        self.assertEqual(Solution().numIdenticalPairs(nums=[1, 2, 3]), 0)
+
+
+if __name__ == "__main__":
+    unittest.main()
