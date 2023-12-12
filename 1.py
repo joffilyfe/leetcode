@@ -32,12 +32,40 @@ class Solution:
 
     # this is O(n) because we iterate only once over the list
     def twoSum(self, nums: List[int], target: int) -> List[int]:
-        table = {}
+        table: dict[int, int] = {}
+        result: List[int] = []
 
         for i in range(0, len(nums)):
             complement = target - nums[i]
 
             if table.get(complement) is not None:
-                return [table.get(complement), i]
+                result = [table[complement], i]
+                break
 
             table[nums[i]] = i
+
+        return result
+
+
+import unittest
+
+
+class Test(unittest.TestCase):
+    def setUp(self):
+        self.solution = Solution()
+
+    def test_first(self):
+        self.assertEqual(
+            self.solution.twoSum(nums=[2, 7, 11, 15], target=9),
+            [0, 1],
+        )
+
+    def test_second(self):
+        self.assertEqual(
+            self.solution.twoSum(nums=[3, 2, 4], target=6),
+            [1, 2],
+        )
+
+
+if __name__ == "__main__":
+    unittest.main()
