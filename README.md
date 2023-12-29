@@ -5,6 +5,7 @@
 | 1051.py        |                        |                                                                            |
 | 1207.py        |                        |                                                                            |
 | 1337.py        | Heap                   | https://leetcode.com/problems/the-k-weakest-rows-in-a-matrix               |
+| 1351.py        | Binary Search          | https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix    |
 | 1356.py        |                        |                                                                            |
 | 1365.py        |                        |                                                                            |
 | 1370.py        |                        |                                                                            |
