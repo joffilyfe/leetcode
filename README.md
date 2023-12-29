@@ -42,6 +42,7 @@
 | 2363.py        |                        |                                                                            |
 | 2367-2.py      |                        |                                                                            |
 | 2367.py        |                        |                                                                            |
+| 2389.py        | Soring/PrefixSum       | https://leetcode.com/problems/longest-subsequence-with-limited-sum         |
 | 2418.py        |                        |                                                                            |
 | 2475.py        |                        |                                                                            |
 | 2500.py        |                        |                                                                            |
