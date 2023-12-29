@@ -1,6 +1,7 @@
 | Problem Number | Tag                    | URL                                                                        |
 | -------------- | ---------------------- | -------------------------------------------------------------------------- |
 | 1.py           | Hash table             | https://leetcode.com/problems/two-sum/                                     |
+| 977.py         | Sorting                | https://leetcode.com/problems/squares-of-a-sorted-array/                   |
 | 1051.py        |                        |                                                                            |
 | 1207.py        |                        |                                                                            |
 | 1337.py        | Heap                   | https://leetcode.com/problems/the-k-weakest-rows-in-a-matrix               |
