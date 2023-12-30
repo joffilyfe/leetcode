@@ -9,6 +9,7 @@
 | 1356.py        |                        |                                                                                      |
 | 1365.py        |                        |                                                                                      |
 | 1370.py        |                        |                                                                                      |
+| 1385.py        | Binary Search          | https://leetcode.com/problems/find-the-distance-value-between-two-arrays             |
 | 1406.py        | Sorting                | https://leetcode.com/problems/minimum-subsequence-in-non-increasing-order/           |
 | 1436.py        |                        |                                                                                      |
 | 1464.py        |                        |                                                                                      |
