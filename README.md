@@ -1,6 +1,7 @@
 | Problem Number | Tag                    | URL                                                                                  |
 | -------------- | ---------------------- | ------------------------------------------------------------------------------------ |
 | 1.py           | Hash table             | https://leetcode.com/problems/two-sum/                                               |
+| 888.py         | Hash table             | https://leetcode.com/problems/fair-candy-swap                                        |
 | 977.py         | Sorting                | https://leetcode.com/problems/squares-of-a-sorted-array/                             |
 | 1051.py        |                        |                                                                                      |
 | 1207.py        |                        |                                                                                      |
