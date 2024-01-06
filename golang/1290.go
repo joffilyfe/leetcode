@@ -9,21 +9,21 @@ package golang
  */
 
 type ListNode struct {
-	Val int
+	Val  int
 	Next *ListNode
- }
+}
 
 func getDecimalValue(head *ListNode) int {
-    result := 0
+	result := 0
 
-    for head != nil {
-        // shift bits to right
-        result = result << 1
-        // do a bitwise or operation
-        // 100 | 001 -> b101 -> 5
-        result = result | head.Val
-        head = head.Next
-    }
+	for head != nil {
+		// shift bits to right
+		result = result << 1
+		// do a bitwise or operation
+		// 100 | 001 -> b101 -> 5
+		result = result | head.Val
+		head = head.Next
+	}
 
-    return result
+	return result
 }

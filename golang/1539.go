@@ -1,7 +1,7 @@
 package golang
 
 func binarySearch1539(arr []int, target int, size int) int {
-	left, right := 0, size - 1
+	left, right := 0, size-1
 
 	for left <= right {
 		middle := (left + right) / 2
@@ -23,10 +23,10 @@ func findKthPositive(arr []int, k int) int {
 	count := 0
 	size := len(arr)
 
-	for i := 1; i <= arr[size - 1]; i++ {
+	for i := 1; i <= arr[size-1]; i++ {
 		result := binarySearch1539(arr, i, size)
 
-		if  result == -1 {
+		if result == -1 {
 			count++
 
 			if count == k {
@@ -35,5 +35,5 @@ func findKthPositive(arr []int, k int) int {
 		}
 	}
 
-	return arr[size - 1] + (k - count)
+	return arr[size-1] + (k - count)
 }
