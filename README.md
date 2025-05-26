@@ -1,8 +1,9 @@
 | Problem Number | Tag                        | URL                                                                                    |
-|----------------|----------------------------|----------------------------------------------------------------------------------------|
+| -------------- | -------------------------- | -------------------------------------------------------------------------------------- |
 | 1.py           | Hash table                 | <https://leetcode.com/problems/two-sum/>                                               |
 | 15.py          | Two pointers               | <https://leetcode.com/problems/3sum/>                                                  |
 | 35.py          | Binary Search              | <https://leetcode.com/problems/search-insert-position/>                                |
+| 80.py          | Array / Two pointers       | <https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/>                |
 | 82.py          | Linked List / Two pointers | <https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/>                 |
 | 83.py          | Linked List / Two pointers | <https://leetcode.com/problems/remove-duplicates-from-sorted-list/>                    |
 | 167.py         | Two pointers               | <https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/>                      |
