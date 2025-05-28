@@ -8,6 +8,7 @@
 | 82.py          | Linked List / Two pointers | <https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/>                 |
 | 83.py          | Linked List / Two pointers | <https://leetcode.com/problems/remove-duplicates-from-sorted-list/>                    |
 | 167.py         | Two pointers               | <https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/>                      |
+| 219.py         | Array / Sliding Window     | <https://leetcode.com/problems/find-the-duplicate-number/>                             |
 | 287.py         | Two pointers / Hash table  | <https://leetcode.com/problems/find-the-duplicate-number/>                             |
 | 888.py         | Hash table                 | <https://leetcode.com/problems/fair-candy-swap>                                        |
 | 977.py         | Two pointers / Sorting     | <https://leetcode.com/problems/squares-of-a-sorted-array/>                             |
