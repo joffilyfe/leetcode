@@ -70,6 +70,7 @@
 | 2913.py        |                             |                                                                                        |
 | 2932.py        |                             |                                                                                        |
 | 3318.py        | Array / Sliding Window      | <https://leetcode.com/problems/find-x-sum-of-all-k-long-subarrays-i>                   |
+| 3364.py        | Array / Sliding Window      | <https://leetcode.com/problems/minimum-positive-sum-subarray>                          |
 | 414.py         |                             |                                                                                        |
 | 496.py         |                             |                                                                                        |
 | 56.py          |                             |                                                                                        |
