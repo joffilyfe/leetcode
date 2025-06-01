@@ -1,29 +1,26 @@
 import unittest
 
+
 class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:
-        table = {}
         n = len(s)
         left = 0
         max_length = 0
+        hashset = set()
 
         for right in range(n):
             char = s[right]
-            table[char] = table.get(char, 0) + 1
 
-            while any(count > 1 for count in table.values()):
+            while char in hashset:
                 leftmost_char = s[left]
-                table[leftmost_char] -= 1
-
-                if table[leftmost_char] == 0:
-                    del table[leftmost_char]
-
+                hashset.remove(leftmost_char)
                 left += 1
+
+            hashset.add(char)
 
             max_length = max(max_length, right - left + 1)
 
         return max_length
-
 
 
 class Tests(unittest.TestCase):
@@ -41,6 +38,7 @@ class Tests(unittest.TestCase):
         s = "pwwkew"
 
         self.assertEqual(Solution().lengthOfLongestSubstring(s), 3)
+
 
 if __name__ == "__main__":
     unittest.main()
