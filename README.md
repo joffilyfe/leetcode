@@ -1,6 +1,7 @@
 | Problem Number | Tag                         | URL                                                                                    |
 | -------------- | --------------------------- | -------------------------------------------------------------------------------------- |
 | 1.py           | Hash table                  | <https://leetcode.com/problems/two-sum/>                                               |
+| 3.py           | Array / Sliding Window      | <https://leetcode.com/problems/longest-substring-without-repeating-characters>         |
 | 15.py          | Two pointers                | <https://leetcode.com/problems/3sum/>                                                  |
 | 35.py          | Binary Search               | <https://leetcode.com/problems/search-insert-position/>                                |
 | 61.py          | Linked List / Two pointers  | <https://leetcode.com/problems/rotate-list/description//>                              |
