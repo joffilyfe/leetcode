@@ -38,6 +38,7 @@
 | 1710.py        |                             |                                                                                                            |
 | 1742.py        |                             |                                                                                                            |
 | 1748.py        |                             |                                                                                                            |
+| 1768.py        | String / Two pointers       | <https://leetcode.com/problems/merge-strings-alternately>                                                  |
 | 1832.py        |                             |                                                                                                            |
 | 1859.py        |                             |                                                                                                            |
 | 1876.py        |                             |                                                                                                            |
