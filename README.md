@@ -33,6 +33,7 @@
 | 1475.py        |                             |                                                                                                            |
 | 1512.py        |                             |                                                                                                            |
 | 1636.py        |                             |                                                                                                            |
+| 1652.py        | Sliding Window              | <https://leetcode.com/problems/defuse-the-bomb>                                                            |
 | 1656.py        |                             |                                                                                                            |
 | 1684.py        |                             |                                                                                                            |
 | 1710.py        |                             |                                                                                                            |
