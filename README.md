@@ -10,6 +10,7 @@
 | 83.py          | Linked List / Two pointers  | <https://leetcode.com/problems/remove-duplicates-from-sorted-list/>                                        |
 | 141.py         | Fast and Slow pointers      | <https://leetcode.com/problems/linked-list-cycle/description/>                                             |
 | 167.py         | Two pointers                | <https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/>                                          |
+| 209.py         | Sliding Window              | <https://leetcode.com/problems/minimum-size-subarray-sum>                                                  |
 | 219.py         | Array / Sliding Window      | <https://leetcode.com/problems/find-the-duplicate-number/>                                                 |
 | 234.py         | Linked List / Fast and Slow | <https://leetcode.com/problems/palindrome-linked-list/>                                                    |
 | 287.py         | Two pointers / Hash table   | <https://leetcode.com/problems/find-the-duplicate-number/>                                                 |
@@ -57,12 +58,14 @@
 | 2154.py        |                             |                                                                                                            |
 | 2206.py        |                             |                                                                                                            |
 | 2215.py        |                             |                                                                                                            |
+| 2269.py        | Sliding Window              | <https://leetcode.com/problems/find-the-k-beauty-of-a-number>                                              |
 | 2283.py        |                             |                                                                                                            |
 | 2325.py        |                             |                                                                                                            |
 | 2341.py        |                             |                                                                                                            |
 | 2363.py        |                             |                                                                                                            |
 | 2367-2.py      |                             |                                                                                                            |
 | 2367.py        |                             |                                                                                                            |
+| 2379.py        | String / Sliding Window     | <https://leetcode.com/problems/minimum-recolors-to-get-k-consecutive-black-blocks>                         |
 | 2389.py        | Soring/PrefixSum            | <https://leetcode.com/problems/longest-subsequence-with-limited-sum>                                       |
 | 2418.py        |                             |                                                                                                            |
 | 2475.py        |                             |                                                                                                            |
@@ -77,6 +80,7 @@
 | 2848.py        |                             |                                                                                                            |
 | 2913.py        |                             |                                                                                                            |
 | 2932.py        |                             |                                                                                                            |
+| 3095.py        | Bit / Sliding Window        | <https://leetcode.com/problems/shortest-subarray-with-or-at-least-k-i>                                     |
 | 3206.py        | Array                       | <https://leetcode.com/problems/alternating-groups-i/description/>                                          |
 | 3318.py        | Array / Sliding Window      | <https://leetcode.com/problems/find-x-sum-of-all-k-long-subarrays-i>                                       |
 | 3364.py        | Array / Sliding Window      | <https://leetcode.com/problems/minimum-positive-sum-subarray>                                              |
