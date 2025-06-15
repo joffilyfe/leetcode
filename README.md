@@ -13,8 +13,12 @@
 | 209.py         | Sliding Window              | <https://leetcode.com/problems/minimum-size-subarray-sum>                                                  |
 | 219.py         | Array / Sliding Window      | <https://leetcode.com/problems/find-the-duplicate-number/>                                                 |
 | 234.py         | Linked List / Fast and Slow | <https://leetcode.com/problems/palindrome-linked-list/>                                                    |
+| 268.py         | Array / Math                | <https://leetcode.com/problems/missing-number/>                                                            |
 | 287.py         | Two pointers / Hash table   | <https://leetcode.com/problems/find-the-duplicate-number/>                                                 |
+| 506.py         | Min Heap                    | <https://leetcode.com/problems/relative-ranks>                                                             |
 | 643.py         | Array / Sliding Window      | <https://leetcode.com/problems/maximum-average-subarray-i/>                                                |
+| 703.py         | Min Heap                    | <https://leetcode.com/problems/kth-largest-element-in-a-stream>                                            |
+| 739.py         | Monotonic Decreasing Stack  | <https://leetcode.com/problems/daily-temperatures/>                                                        |
 | 876.py         | Fast and Slow pointers      | <https://leetcode.com/problems/middle-of-the-linked-list/>                                                 |
 | 888.py         | Hash table                  | <https://leetcode.com/problems/fair-candy-swap>                                                            |
 | 904.py         | Hash table / Sliding Window | <https://leetcode.com/problems/fruit-into-baskets/description/>                                            |
