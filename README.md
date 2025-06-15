@@ -21,6 +21,7 @@
 | 739.py         | Monotonic Decreasing Stack  | <https://leetcode.com/problems/daily-temperatures/>                                                        |
 | 876.py         | Fast and Slow pointers      | <https://leetcode.com/problems/middle-of-the-linked-list/>                                                 |
 | 888.py         | Hash table                  | <https://leetcode.com/problems/fair-candy-swap>                                                            |
+| 901.py         | Monotonic Stack (Span dist) | <https://leetcode.com/problems/online-stock-span/>                                                         |
 | 904.py         | Hash table / Sliding Window | <https://leetcode.com/problems/fruit-into-baskets/description/>                                            |
 | 977.py         | Two pointers / Sorting      | <https://leetcode.com/problems/squares-of-a-sorted-array/>                                                 |
 | 1051.py        |                             |                                                                                                            |
